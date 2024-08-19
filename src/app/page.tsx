@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 "use client"
 
 import FlexParent from "@/components/ui/flex-box";
