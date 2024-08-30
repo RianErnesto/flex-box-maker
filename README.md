@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flexbox Layout Creator
 
-## Getting Started
+Um sistema simples para criar layouts utilizando Flexbox. Com esta ferramenta, você pode facilmente manipular as propriedades Flexbox de um container e seus itens, além de modificar as dimensões dos itens e a quantidade de itens exibidos na tela. O código gerado para o container e para os itens pode ser visualizado e copiado diretamente do sistema.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Alterar propriedades do container:** Modifique propriedades Flexbox como `display`, `flex-direction`, `justify-content`, `align-items`, `align-content`, e mais.
+- **Alterar propriedades dos itens:** Personalize propriedades Flexbox individuais dos itens, incluindo `order`, `flex-grow`, `flex-shrink`, e `align-self`.
+- **Modificar dimensões dos itens:** Ajuste a largura (`width`) e a altura (`height`) geral dos itens no container.
+- **Personalizar quantidade de itens:** Adicione ou remova itens do container para testar diferentes layouts.
+- **Gerar código:** Visualize e copie o código CSS gerado para o container e os itens diretamente da interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Usar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório para sua máquina local:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
+3. Abra o arquivo `index.html` no seu navegador para começar a utilizar a ferramenta.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Exemplo de Uso
 
-## Learn More
+- **Container:** Defina o `flex-direction` como `row`, `justify-content` como `space-around` e `align-items` como `center` para um layout responsivo horizontal.
+- **Itens:** Ajuste `flex-grow` de um item para 2, enquanto outros têm 1, para criar diferentes proporções de espaço.
+- **Dimensões:** Modifique a largura dos itens para `100px` e a altura para `50px` para observar como o layout se ajusta.
+- **Quantidade de Itens:** Experimente adicionar 10 itens ao container e veja como eles se organizam automaticamente com as propriedades definidas.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- HTML
+- CSS (Flexbox)
+- JavaScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribuições
 
-## Deploy on Vercel
+Sinta-se à vontade para contribuir com o projeto. Você pode fazer isso através de pull requests. Para grandes mudanças, por favor, abra um issue primeiro para discutir o que você gostaria de alterar.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+Caso tenha dúvidas ou sugestões, entre em contato através do e-mail: [seu-email@example.com](mailto:seu-email@example.com).
